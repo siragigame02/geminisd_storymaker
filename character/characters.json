@@ -1,0 +1,24 @@
+{
+  "桃原リリカ": {
+    "名前": "桃原リリカ",
+    "年齢": "16",
+    "性別": "女性",
+    "体型": "低身長",
+    "容姿": "制服姿の女子高生。可愛いけどジト目、陰キャ。制服の上から白衣を着ている",
+    "髪型・髪色": "ぼさぼさロング、黒髪",
+    "瞳の色": "琥珀色",
+    "SD用プロンプト": "from_above,(anime, masterpiece, intricate:1.3), (best quality, hires textures, high detail:1.2), (4k),(incredibly detailed:1.4), perfect anatomy,1girl, massy_hair,long_hair,jitome,black_hair,smug,yellow_eyes,medium_breasts,teenage,loli,fullbody,\n",
+    "SD Negative Prompt": "(patterned background, dappled background, blurry background, light particles:1.2)\n"
+  },
+  "アイヴィ・エーデルワイス": {
+    "名前": "アイヴィ・エーデルワイス",
+    "年齢": "18",
+    "性別": "女性",
+    "体型": "グラマラス",
+    "容姿": "高貴な印象を与える美少女。メイド風の衣装。",
+    "髪型・髪色": "ストレートロング、銀髪",
+    "瞳の色": "青",
+    "SD用プロンプト": "silver hair, blue eyes, elegant maid, noble beauty, full body",
+    "SD Negative Prompt": "blurry, bad hands, malformed body"
+  },
+}
