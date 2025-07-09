@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+ <google_api>
+  <api_key>GeminiのAPIKeyを入れてください</api_key>
+  <model>gemini-2.5-pro</model>
+ </google_api>
+<stable_diffusion><url>http://127.0.0.1:7860/</url>
+<checkpoint>Checkpointのローカルファイルのパスを入れてください</checkpoint>
+<vae>VAEのローカルファイルのパスを入れてください</vae>
+<sampler>Euler a</sampler><steps>20</steps><cfg_scale>4.0</cfg_scale><seed>-1</seed><resolution><width>1024</width><height>1024</height></resolution></stable_diffusion><save_paths><chat_logs>outputs/logs/</chat_logs><images>outputs/images/</images></save_paths>
+  <safety_settings>
+    <HARM_CATEGORY_HARASSMENT>BLOCK_NONE</HARM_CATEGORY_HARASSMENT>
+    <HARM_CATEGORY_HATE_SPEECH>BLOCK_NONE</HARM_CATEGORY_HATE_SPEECH>
+    <HARM_CATEGORY_SEXUALLY_EXPLICIT>BLOCK_NONE</HARM_CATEGORY_SEXUALLY_EXPLICIT>
+    <HARM_CATEGORY_DANGEROUS_CONTENT>BLOCK_NONE</HARM_CATEGORY_DANGEROUS_CONTENT>
+    <HARM_CATEGORY_CIVIC_INTEGRITY>BLOCK_NONE</HARM_CATEGORY_CIVIC_INTEGRITY>
+  </safety_settings>
+  <image_instructions>
+    挿絵として使いたいので、小説を出力した最後に以下のプロンプトを出力してください。
+    [Prompt:]の中に、ヒロインの服装（tied_shirt,denim_shortsなど）や状況などをStableDiffusion用のプロンプトを英語で出力してください
+    （画質や身体などの情報は既に含まれているので服装やポーズ、表情、背景や状況などで大丈夫です）
+    もう一人の人物がいる場合は1boyあるいは1guyあるいは1old_man,monsterなどの形で相応しいキャラの分を追加してください。
+    出力例：[Prompt:school_uniform,skirt,1boy]という形で[]内に収まるようにしてください
+  </image_instructions>
+</config>
