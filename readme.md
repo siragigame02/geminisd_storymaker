@@ -65,7 +65,7 @@ xmltodict
 ## 🚀 実行方法
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 初回起動時、`config/config.xml` を自動生成します。
